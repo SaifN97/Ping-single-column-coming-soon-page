@@ -1,0 +1,13 @@
+@import url("https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Libre Franklin", sans-serif;
+  color: #151f29;
+}
+
+/*# sourceMappingURL=/main.77bb5cfd.css.map */
