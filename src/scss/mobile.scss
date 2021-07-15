@@ -63,6 +63,15 @@
       opacity: 0.9;
     }
   }
+
+  &.error {
+    input {
+      border: 1px solid $Light-Red;
+    }
+    .errorTxt {
+      display: block;
+    }
+  }
 }
 
 .dashboard-img {
@@ -82,4 +91,12 @@ footer {
     font-size: 0.8rem;
     margin: 1.5em auto;
   }
+}
+
+.errorTxt {
+  padding: 0.5em;
+  color: $Light-Red;
+  font-weight: 200;
+  display: none;
+  font-style: italic;
 }

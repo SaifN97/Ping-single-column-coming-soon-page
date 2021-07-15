@@ -77,6 +77,12 @@ img {
 .form button:hover {
   opacity: 0.9;
 }
+.form.error input {
+  border: 1px solid #ff5263;
+}
+.form.error .errorTxt {
+  display: block;
+}
 
 .dashboard-img {
   margin: 4em auto;
@@ -97,6 +103,14 @@ footer p {
   margin: 1.5em auto;
 }
 
+.errorTxt {
+  padding: 0.5em;
+  color: #ff5263;
+  font-weight: 200;
+  display: none;
+  font-style: italic;
+}
+
 @media (min-width: 600px) {
   .container {
     max-width: 600px;
@@ -113,6 +127,7 @@ footer p {
   }
 
   .form {
+    position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -125,6 +140,12 @@ footer p {
 
   .dashboard-img {
     margin: 2em 0;
+  }
+
+  .errorTxt {
+    position: absolute;
+    left: 10px;
+    bottom: -30px;
   }
 }
 
