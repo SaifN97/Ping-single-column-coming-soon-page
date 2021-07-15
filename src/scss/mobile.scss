@@ -1,0 +1,85 @@
+@use "colors" as *;
+
+.container {
+  width: 90%;
+  margin: 3em auto;
+}
+
+.light {
+  font-weight: 200;
+  color: $Gray;
+}
+
+.logo {
+  padding: 2em;
+  img {
+    width: 70px;
+    height: 20px;
+  }
+}
+
+.intro {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.intro-header {
+  h1 {
+    font-size: 1.6rem;
+  }
+  h3 {
+    font-size: 1rem;
+    padding: 1.2em;
+    font-weight: 200;
+  }
+}
+
+.form {
+  width: 90%;
+  margin: 0 auto;
+  input {
+    width: 100%;
+    border-radius: 100px;
+    padding: 1em 2em;
+    outline: none;
+    border: 1px solid $Pale-Blue;
+    color: $Gray;
+  }
+  button {
+    background: $Blue;
+    color: white;
+    border-radius: 100px;
+    width: 100%;
+    border: none;
+    padding: 1em;
+    margin-top: 1em;
+    box-shadow: 10px 0 10px rgba($color: #000000, $alpha: 0.1);
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    &:hover {
+      opacity: 0.9;
+    }
+  }
+}
+
+.dashboard-img {
+  margin: 4em auto;
+}
+
+footer {
+  text-align: center;
+  .social {
+    color: $Blue;
+    i + i {
+      margin-left: 2em;
+    }
+  }
+  p {
+    color: $Gray;
+    font-size: 0.8rem;
+    margin: 2em auto;
+  }
+}
